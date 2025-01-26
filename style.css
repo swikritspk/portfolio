@@ -1,3 +1,5 @@
+/** @format */
+
 :root {
   --white-color: #fff;
   --bg-color: #fff;
@@ -14,11 +16,11 @@ body {
 /* Hero section background image */
 .hero {
   height: 100vh;
-  background-image: url("./home-bg.jpeg");
-  background-repeat: no-repeat;
-  background-position: 60% 0%;
-  background-size: cover;
+  background: url("./home-bg.png");
+  background-position: 90% -10% !important;
   background-attachment: fixed;
+  background-blend-mode: difference;
+  backdrop-filter: blur(0.1px) !important;
 }
 #skills i {
   height: 100px;
@@ -80,5 +82,8 @@ footer .social-icons a {
   #about .hire-text h2 {
     height: 70px;
     width: 70px;
+  }
+  .hero {
+    background-position: -100% 7% !important;
   }
 }
