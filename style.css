@@ -1,18 +1,14 @@
-/* Color variables */
 :root {
     --white-color: #fff;
     --bg-color: #fff;
     --gray-color: #ccc;
   }
-  /* Changing background color */
   body {
     background: var(--bg-color) !important;
   }
-  /* Changing link color */
   .nav-item .nav-link {
     color: var(--white-color);
   }
-  /* Hero section background image */
   .hero {
     height: 100vh;
     background-image: url("home-bg1.jpg");
@@ -34,7 +30,6 @@
   .hire-text h2 {
     position: relative;
   }
-  /* Timeline background line */
   #about .img::before {
     content: "";
     left: 50%;
@@ -61,7 +56,6 @@
   #cv img {
     width: 230px;
   }
-  /* Contact section background image */
   #contact {
    background-size: cover;
     background-attachment: fixed;
